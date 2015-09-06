@@ -14,6 +14,8 @@
 		1C63B8B51B9C1802008DD1AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C63B8B41B9C1802008DD1AF /* Images.xcassets */; };
 		1C63B8B81B9C1802008DD1AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63B8B61B9C1802008DD1AF /* LaunchScreen.xib */; };
 		1C63B8C41B9C1802008DD1AF /* PiFaceLightSwitchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63B8C31B9C1802008DD1AF /* PiFaceLightSwitchTests.m */; };
+		1C63B8D01B9C1C8A008DD1AF /* OutputTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C63B8CE1B9C1C8A008DD1AF /* OutputTableViewCell.m */; };
+		1C63B8D11B9C1C8A008DD1AF /* OutputTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C63B8CF1B9C1C8A008DD1AF /* OutputTableViewCell.xib */; };
 		9592DBCB3E7D24AE7E73A6A9 /* libPods-PiFaceLightSwitch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1865FC64FE6CB0A1F5BAF6 /* libPods-PiFaceLightSwitch.a */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,9 @@
 		1C63B8BD1B9C1802008DD1AF /* PiFaceLightSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiFaceLightSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C63B8C21B9C1802008DD1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C63B8C31B9C1802008DD1AF /* PiFaceLightSwitchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PiFaceLightSwitchTests.m; sourceTree = "<group>"; };
+		1C63B8CD1B9C1C8A008DD1AF /* OutputTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputTableViewCell.h; sourceTree = "<group>"; };
+		1C63B8CE1B9C1C8A008DD1AF /* OutputTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutputTableViewCell.m; sourceTree = "<group>"; };
+		1C63B8CF1B9C1C8A008DD1AF /* OutputTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OutputTableViewCell.xib; sourceTree = "<group>"; };
 		4F1865FC64FE6CB0A1F5BAF6 /* libPods-PiFaceLightSwitch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PiFaceLightSwitch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A641FB5A09DA111E0E78F99 /* Pods-PiFaceLightSwitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiFaceLightSwitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PiFaceLightSwitch/Pods-PiFaceLightSwitch.debug.xcconfig"; sourceTree = "<group>"; };
 		DDA94D46F87DDA4009144AE0 /* Pods-PiFaceLightSwitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PiFaceLightSwitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-PiFaceLightSwitch/Pods-PiFaceLightSwitch.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,6 +101,9 @@
 				1C63B8B41B9C1802008DD1AF /* Images.xcassets */,
 				1C63B8B61B9C1802008DD1AF /* LaunchScreen.xib */,
 				1C63B8A71B9C1802008DD1AF /* Supporting Files */,
+				1C63B8CD1B9C1C8A008DD1AF /* OutputTableViewCell.h */,
+				1C63B8CE1B9C1C8A008DD1AF /* OutputTableViewCell.m */,
+				1C63B8CF1B9C1C8A008DD1AF /* OutputTableViewCell.xib */,
 			);
 			path = PiFaceLightSwitch;
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C63B8D11B9C1C8A008DD1AF /* OutputTableViewCell.xib in Resources */,
 				1C63B8B31B9C1802008DD1AF /* Main.storyboard in Resources */,
 				1C63B8B81B9C1802008DD1AF /* LaunchScreen.xib in Resources */,
 				1C63B8B51B9C1802008DD1AF /* Images.xcassets in Resources */,
@@ -278,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C63B8D01B9C1C8A008DD1AF /* OutputTableViewCell.m in Sources */,
 				1C63B8B01B9C1802008DD1AF /* ViewController.m in Sources */,
 				1C63B8AD1B9C1802008DD1AF /* AppDelegate.m in Sources */,
 				1C63B8AA1B9C1802008DD1AF /* main.m in Sources */,
